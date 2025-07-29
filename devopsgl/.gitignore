@@ -1,0 +1,58 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+-------------------
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build Output
+dist/
+build/
+
+# Environment
+.env
+.env.*.local
+.env.local
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# System Logs / Temp
+*.log
+*.tmp
+*.swp
+*.bak
+
+### ????
+# Test Output / Coverage
+coverage/
+.nyc_output/
+*.lcov
+
+
+### ????
+# Optional: NPM / Bun / PNPM lock files
+package-lock.json
+pnpm-lock.yaml
+bun.lockb
